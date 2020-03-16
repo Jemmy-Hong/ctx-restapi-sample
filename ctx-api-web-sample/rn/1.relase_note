@@ -1,0 +1,9 @@
+﻿ Instruction regarding how to use this sample project
+
+ 1. upload the server certificate to S3 server
+ 2. login in PortalWeb system an go to  Api Management feature
+ 3. upload a client certificate then get an application Id from the table
+ 4. go to the sender folder of this project and open RestSender File
+ 5. change the three static properties on the TOP: REQUEST_URL , APPLICATION_ID and CLIENT_PRIVATE_KEY.(can get the meaning from their names)
+ 6. create the data that match the the request in step 4
+ 7. Run the main method of the File RestSender, then you can get the result form the console
